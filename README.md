@@ -22,7 +22,7 @@ This repository documents my progress in cybersecurity through research, practic
 ```text
 Cybersecurity-Learning-Journey/
 │
-├── Task-1-Threat-Intelligence-Report/
+├── Task-1-Threat-Intelligence-Report/Cybersecurity_Threat_Report_Task1_Shawn Rodrigues.pdf
     └── README.md
 ```
 
