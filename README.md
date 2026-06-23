@@ -24,6 +24,10 @@ Cybersecurity-Learning-Journey/
 │
 ├── Task-1-Threat-Intelligence-Report
     ├── Cybersecurity_Threat_Report_Task1_Shawn Rodrigues.pdf
+
+├── Task-2-Cybersecurity Lab Setup
+    ├── Full_LAB_Build_Report_Shawn_Rodrigues_Task2.pdf
+    ├──Evidence
 └── README.md
 ```
 
