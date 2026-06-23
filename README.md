@@ -79,6 +79,69 @@ Some of the resources explored during this journey include:
 - Industry Threat Intelligence Reports
 
 ---
+# 🔐 Cybersecurity Lab Setup – Task 2
+
+## Overview
+
+This project documents the successful creation of a personal cybersecurity laboratory environment using Oracle VirtualBox, Kali Linux, Docker, and OWASP Juice Shop.
+
+The lab was designed to provide a safe and isolated environment for practicing cybersecurity concepts such as network analysis, web application testing, vulnerability assessment, and traffic monitoring.
+
+---
+
+## Lab Components
+
+### Attacker Machine
+
+* Kali Linux 2026.1
+
+### Vulnerable Target
+
+* OWASP Juice Shop
+
+### Networking
+
+* NAT Adapter
+* Host-Only Adapter
+
+### Security Tools Used
+
+* Nmap
+* Burp Suite Community Edition
+* Wireshark
+* Docker
+
+---
+
+## Activities Performed
+
+* Kali Linux Deployment
+* Network Configuration
+* Docker Installation
+* OWASP Juice Shop Deployment
+* Ping Validation
+* Nmap Host Discovery
+* HTTP Traffic Analysis using Burp Suite
+* Packet Capture using Wireshark
+
+---
+
+## Key Learning Outcomes
+
+* Virtualization Fundamentals
+* Network Segmentation
+* Docker Container Deployment
+* Web Application Testing
+* Network Traffic Analysis
+* Security Tool Usage
+
+---
+
+## Screenshots
+
+All screenshots and evidence are available in the Evidence folder.
+
+---
 
 ## 🚀 Future Goals
 
