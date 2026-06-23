@@ -1,7 +1,7 @@
 # 🔐 Cybersecurity Learning Journey
 ### Research • Security • Threat Intelligence • Ethical Hacking
 
-Welcome to my Cybersecurity Learning Journey repository.
+Welcome to my Cybersecurity Learning Journey repo...
 
 This repository documents my progress in cybersecurity through research, practical tasks, security analysis, and hands-on projects. It serves as a portfolio showcasing my growing knowledge in cybersecurity, ethical hacking, threat intelligence, and information security.
 
