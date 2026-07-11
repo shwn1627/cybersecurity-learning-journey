@@ -62,7 +62,7 @@ Task-3-Vulnerability-Assessment/
 ├── references.md
 │
 ├── Report/
-│   └── Vulnerability_Assessment_Report.pdf
+│   └── Task3_Vulnerability_Assessment_Report_ShawnRodrigues.docx
 │
 └── Evidence/
     ├── Nmap/
@@ -131,8 +131,9 @@ The `Evidence/` folder contains:
 
 This project includes:
 
-- Vulnerability Assessment Report
-- Commands Used
+- Vulnerability Assessment Report (Word format, includes appendices)
+- Commands Used (Appendix A)
+- Full Tool Output (Appendix B)
 - Findings Summary
 - References
 
