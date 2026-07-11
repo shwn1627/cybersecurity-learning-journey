@@ -1,0 +1,125 @@
+============================================================
+TASK 3 - VULNERABILITY ASSESSMENT
+============================================================
+
+Target:
+OWASP Juice Shop (Docker)
+
+Operating System:
+Kali Linux
+
+Tools Used:
+- Docker
+- Nmap
+- Nikto
+- Dirsearch
+
+============================================================
+1. Verify Network Configuration
+============================================================
+
+ip a
+
+Purpose:
+Displays available network interfaces and assigned IP addresses.
+
+============================================================
+2. Host Discovery
+============================================================
+
+sudo nmap -sn 192.168.56.0/24
+
+Purpose:
+Discovers active hosts on the local subnet.
+
+============================================================
+3. Check Docker Containers
+============================================================
+
+sudo docker ps
+
+Purpose:
+Displays all currently running Docker containers.
+
+============================================================
+4. View All Containers
+============================================================
+
+sudo docker ps -a
+
+Purpose:
+Displays all Docker containers including stopped ones.
+
+============================================================
+5. Start OWASP Juice Shop
+============================================================
+
+sudo docker start juice
+
+Purpose:
+Starts the Juice Shop container.
+
+============================================================
+6. Service Enumeration
+============================================================
+
+sudo nmap -sV -Pn localhost \
+-oN ~/Task3/Evidence/nmap/full-service-scan.txt
+
+Purpose:
+Identifies open ports and running services.
+
+Output:
+full-service-scan.txt
+
+============================================================
+7. View Nmap Report
+============================================================
+
+cat ~/Task3/Evidence/nmap/full-service-scan.txt
+
+============================================================
+8. Nikto Scan
+============================================================
+
+nikto -h http://localhost:3000 \
+-o ~/Task3/Evidence/nikto/nikto.txt
+
+Purpose:
+Scans the web server for security misconfigurations.
+
+Output:
+nikto.txt
+
+============================================================
+9. Verify Nikto Report
+============================================================
+
+ls ~/Task3/Evidence/nikto
+
+============================================================
+10. Install Dirsearch
+============================================================
+
+sudo apt install dirsearch
+
+============================================================
+11. Directory Enumeration
+============================================================
+
+dirsearch -u http://localhost:3000 \
+-o ~/Task3/Evidence/dirsearch/dirsearch.txt
+
+Purpose:
+Discovers hidden directories and files.
+
+Output:
+dirsearch.txt
+
+============================================================
+12. Verify Dirsearch Report
+============================================================
+
+ls ~/Task3/Evidence/dirsearch
+
+cat ~/Task3/Evidence/dirsearch/dirsearch.txt
