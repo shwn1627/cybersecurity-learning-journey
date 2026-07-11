@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:0f2027,50:16222a,75:1b3a4b,100:203a43&height=260&section=header&text=root@shawn:~%23&fontSize=60&fontColor=00ff9d&fontAlign=50&fontAlignY=32&animation=fadeIn&desc=Cybersecurity%20Learning%20Journey%20%E2%80%94%20Recon.%20Scan.%20Report.&descAlignY=52&descSize=19&descColor=7ee8fa" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,20:0f2027,45:16222a,70:1b3a4b,100:2c5364&height=280&section=header&text=root@shawn:~%23&fontSize=62&fontColor=00ff9d&fontAlign=50&fontAlignY=34&animation=twinkling&desc=Cybersecurity%20Learning%20Journey%20%E2%80%94%20Recon.%20Scan.%20Report.&descAlignY=54&descSize=19&descColor=7ee8fa&descAlign=50" width="100%"/>
+
+<sub>Kali Linux · Docker · Nmap · Nikto · Dirsearch · Threat Intelligence</sub>
 
 </div>
 
