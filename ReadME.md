@@ -1,27 +1,52 @@
-# 🔐 Cybersecurity Learning Journey
+<div align="center">
 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![Tasks](https://img.shields.io/badge/Tasks_Completed-3-blue)
-![Platform](https://img.shields.io/badge/Platform-Kali_Linux-557C94?logo=kalilinux&logoColor=white)
-![Docker](https://img.shields.io/badge/Container-Docker-2496ED?logo=docker&logoColor=white)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0f2027,100:203a43&height=200&section=header&text=root@shawn:~%23&fontSize=45&fontColor=00ff9d&fontAlign=50&fontAlignY=35&animation=fadeIn&desc=Cybersecurity%20Learning%20Journey&descAlignY=58&descSize=20&descColor=7ee8fa" width="100%"/>
 
-Research • Security • Threat Intelligence • Ethical Hacking
+</div>
 
-This repository documents my progress in cybersecurity through research, practical tasks, security analysis, and hands-on projects. It's a portfolio of what I've built and learned so far — reconnaissance, vulnerability assessment, threat intelligence, and lab work — with each task written up the way a real security analyst would document it.
+```bash
+┌──(shawn㉿kali)-[~]
+└─$ whoami
+> Cybersecurity learner | Ethical Hacker in training | Building in public
+
+┌──(shawn㉿kali)-[~]
+└─$ cat mission.txt
+> Documenting my path through cybersecurity, one task, one scan,
+> one report at a time — the same workflow real security analysts follow.
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=1200&color=00FF9D&center=true&vCenter=true&width=600&lines=nmap+-sV+-Pn+target;Scanning+for+vulnerabilities...;Documenting+findings...;Building+my+security+portfolio." alt="Typing SVG" />
+
+<br/>
+
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-00ff9d?style=for-the-badge&labelColor=0d1117)
+![Tasks](https://img.shields.io/badge/TASKS-3_COMPLETED-00d4ff?style=for-the-badge&labelColor=0d1117)
+![Platform](https://img.shields.io/badge/OS-KALI_LINUX-557C94?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=0d1117)
+![Docker](https://img.shields.io/badge/CONTAINER-DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0d1117)
 
 ---
 
-## 🎯 Objectives
+## `> cat about.md`
 
-- Build a strong foundation in cybersecurity concepts
-- Understand modern cyber threats and attack vectors
-- Develop practical security skills through hands-on projects
-- Explore ethical hacking methodologies and defensive strategies
-- Document what I learn as I go, and keep improving
+This repository documents my progress in cybersecurity through research, practical tasks, security analysis, and hands-on lab work. It's a running log of what I've built and learned — reconnaissance, vulnerability assessment, threat intelligence, lab environments — each one written up the way a real analyst would document an engagement.
+
+> **Note:** No exploitation is performed in any task. Everything here is reconnaissance, scanning, analysis, and reporting inside isolated lab environments only.
 
 ---
 
-## 📂 Repository Structure
+## `> cat objectives.txt`
+
+```diff
++ Build a strong foundation in cybersecurity concepts
++ Understand modern cyber threats and attack vectors
++ Develop practical security skills through hands-on projects
++ Explore ethical hacking methodologies and defensive strategies
++ Document everything, and keep improving with every task
+```
+
+---
+
+## `> tree .`
 
 ```text
 Cybersecurity-Learning-Journey/
@@ -51,19 +76,29 @@ Cybersecurity-Learning-Journey/
 
 ---
 
-## ✅ Completed Tasks
+## `> ls -la tasks/`
+
+<div align="center">
 
 | # | Task | Focus | Status |
-|---|---|---|---|
-| 1 | [Threat Intelligence Report](./task1) | Cyber Threat Research | ✅ Done |
-| 2 | [Cybersecurity Lab Setup](./task2) | Environment Build | ✅ Done |
-| 3 | [Vulnerability Assessment](./task3) | OWASP Juice Shop | ✅ Done |
+|:---:|---|---|:---:|
+| 01 | [Threat Intelligence Report](./task1) | Cyber Threat Research | 🟢 `DONE` |
+| 02 | [Cybersecurity Lab Setup](./task2) | Environment Build | 🟢 `DONE` |
+| 03 | [Vulnerability Assessment](./task3) | OWASP Juice Shop | 🟢 `DONE` |
+
+</div>
 
 ---
 
-### Task 1 — Cybersecurity Threat Landscape (2024–2025)
+<br/>
 
-A Threat Intelligence Report analyzing major cybersecurity threats affecting organizations and individuals.
+## `[ TASK_01 ]` Cybersecurity Threat Landscape (2024–2025)
+
+```yaml
+type: Threat Intelligence Report
+target: Global threat landscape
+output: Cybersecurity_Threat_Report_Task1_Shawn_Rodrigues.pdf
+```
 
 **Topics Covered**
 - AI-Powered Phishing Attacks
@@ -73,17 +108,21 @@ A Threat Intelligence Report analyzing major cybersecurity threats affecting org
 - Zero-Day Exploits
 
 **Additional Areas**
-- Impact Analysis
-- Real-World Case Studies
-- Preventive Measures
-- Future Cybersecurity Trends
-- Security Recommendations
+- Impact analysis and real-world case studies
+- Preventive measures and security recommendations
+- Future cybersecurity trends
 
----
+<br/>
 
-### Task 2 — Cybersecurity Lab Setup
+## `[ TASK_02 ]` Cybersecurity Lab Setup
 
-This project documents the creation of a personal cybersecurity lab using Oracle VirtualBox, Kali Linux, Docker, and OWASP Juice Shop — a safe, isolated environment for practicing network analysis, web application testing, vulnerability assessment, and traffic monitoring.
+```yaml
+type: Environment Build
+stack: VirtualBox + Kali Linux + Docker + OWASP Juice Shop
+status: Fully operational
+```
+
+A personal, isolated cybersecurity lab — the foundation every later task runs on top of.
 
 **Lab Components**
 
@@ -92,120 +131,113 @@ This project documents the creation of a personal cybersecurity lab using Oracle
 | Attacker Machine | Kali Linux 2026.1 |
 | Vulnerable Target | OWASP Juice Shop |
 | Networking | NAT Adapter, Host-Only Adapter |
-| Security Tools | Nmap, Burp Suite Community Edition, Wireshark, Docker |
+| Security Tools | Nmap, Burp Suite CE, Wireshark, Docker |
 
 **Activities Performed**
-- Kali Linux deployment
-- Network configuration
-- Docker installation
-- OWASP Juice Shop deployment
-- Ping validation
-- Nmap host discovery
-- HTTP traffic analysis using Burp Suite
-- Packet capture using Wireshark
+```bash
+$ Kali Linux deployment
+$ Network configuration (NAT + Host-Only)
+$ Docker installation & container deployment
+$ ping -c 4 <target>          # connectivity validation
+$ nmap -sn <subnet>            # host discovery
+$ burpsuite                    # HTTP traffic analysis
+$ wireshark                    # packet capture
+```
 
 **Key Learning Outcomes**
-- Virtualization fundamentals
-- Network segmentation
-- Docker container deployment
-- Web application testing
-- Network traffic analysis
-- Security tool usage
+Virtualization fundamentals · Network segmentation · Docker deployment · Web app testing · Traffic analysis · Security tool usage
 
-All screenshots and evidence are in the Task-2 `Evidence/` folder.
+📁 Evidence & screenshots → [`task2/Evidence/`](./task2)
 
----
+<br/>
 
-### Task 3 — Vulnerability Assessment on OWASP Juice Shop
+## `[ TASK_03 ]` Vulnerability Assessment — OWASP Juice Shop
 
-A black-box vulnerability assessment on OWASP Juice Shop, running in a Docker container on Kali Linux, using Nmap, Nikto, and Dirsearch.
+```yaml
+type: Black Box Vulnerability Assessment
+target: OWASP Juice Shop (Docker container)
+url: http://localhost:3000
+tools: [Nmap, Nikto, Dirsearch]
+```
 
-**Lab Components**
+**Assessment Flow**
 
-| Component | Details |
-|---|---|
-| Attacker Machine | Kali Linux |
-| Target | OWASP Juice Shop (Docker container) |
-| Assessment Type | Black Box Vulnerability Assessment |
-| Access URL | http://localhost:3000 |
+```text
+Recon → Port Scan (Nmap) → Web Scan (Nikto) → Dir Enum (Dirsearch) → Risk Analysis → Report
+```
 
-**Tools Used**
-
-| Tool | Purpose |
-|---|---|
-| Nmap | Network reconnaissance and service enumeration |
-| Nikto | Web server vulnerability scanning |
-| Dirsearch | Hidden directory and endpoint discovery |
-| Docker | Containerized deployment |
-
-**Activities Performed**
-- Host discovery and network scanning
-- Port and service enumeration with Nmap
-- Web server misconfiguration scanning with Nikto
-- Hidden directory/endpoint discovery with Dirsearch
-- Risk analysis and severity rating of findings
-- Professional report writing with remediation recommendations
-
-**Key Findings Summary**
+**Findings**
 
 | Finding | Severity |
-|---|---|
-| Open Port 3000 | Medium |
-| Missing Content Security Policy | Medium |
-| Missing HSTS Header | Medium |
-| Missing Referrer Policy | Low |
-| Missing Permissions Policy | Low |
-| robots.txt Accessible | Low |
-| API Documentation Exposed | Medium |
-| Swagger Interface Accessible | Medium |
-
-**Key Learning Outcomes**
-- Network reconnaissance using Nmap
-- Web server vulnerability analysis
-- Directory enumeration techniques
-- Security header analysis
-- Risk assessment and severity rating
-- Professional vulnerability assessment reporting
+|---|:---:|
+| Open Port 3000 | 🟡 Medium |
+| Missing Content Security Policy | 🟡 Medium |
+| Missing HSTS Header | 🟡 Medium |
+| Missing Referrer Policy | 🟢 Low |
+| Missing Permissions Policy | 🟢 Low |
+| robots.txt Accessible | 🟢 Low |
+| API Documentation Exposed | 🟡 Medium |
+| Swagger Interface Accessible | 🟡 Medium |
 
 **Deliverables**
-- Full Vulnerability Assessment Report (Word format, includes appendices)
-- Commands used, findings summary, and references
-- Complete evidence set (scan outputs + screenshots)
+- Full Vulnerability Assessment Report (Word format, with appendices)
+- Commands used, findings summary, references
+- Complete evidence set — scan outputs + screenshots
 
-All screenshots and evidence are in the Task-3 `Evidence/` folder. See the [Task-3 README](./task3/README.md) for full details.
-
----
-
-## 🛠 Skills & Domains
-
-Cybersecurity Fundamentals · Threat Intelligence · Risk Assessment · Vulnerability Analysis · Ethical Hacking · Network Security · Cloud Security · Incident Analysis
-
-**Tools:** Kali Linux, Docker, Nmap, Wireshark, Burp Suite, Nikto, Dirsearch
+📄 Full write-up → [`task3/README.md`](./task3/README.md)
 
 ---
 
-## 📚 Learning Resources
+## `> cat skills.json`
 
-- NIST Cybersecurity Framework
-- OWASP Security Guidelines
-- CISA Security Advisories
-- IBM Security Research
-- ENISA Threat Landscape Reports
-- Industry Threat Intelligence Reports
+```json
+{
+  "core_skills": [
+    "Cybersecurity Fundamentals", "Threat Intelligence", "Risk Assessment",
+    "Vulnerability Analysis", "Ethical Hacking", "Network Security",
+    "Cloud Security", "Incident Analysis"
+  ],
+  "tools": ["Kali Linux", "Docker", "Nmap", "Wireshark", "Burp Suite", "Nikto", "Dirsearch"]
+}
+```
 
 ---
 
-## 🚀 Future Goals
+## `> cat references.txt`
 
+```text
+[1] NIST Cybersecurity Framework
+[2] OWASP Security Guidelines
+[3] CISA Security Advisories
+[4] IBM Security Research
+[5] ENISA Threat Landscape Reports
+[6] Industry Threat Intelligence Reports
+```
+
+---
+
+## `> cat roadmap.todo`
+
+```diff
 - Perform advanced vulnerability assessments
 - Learn web application security testing in more depth
 - Explore penetration testing methodologies
 - Develop security automation skills
 - Build more hands-on cybersecurity projects
-- Work toward industry-recognized certifications
+- Earn industry-recognized certifications
+```
 
 ---
 
-## ⭐ Note
+<div align="center">
 
-This repository is a living portfolio and will keep growing as I complete new cybersecurity projects and learning activities. If you found it useful, a star is always appreciated.
+```bash
+┌──(shawn㉿kali)-[~]
+└─$ echo "thanks for reading — this repo keeps growing 🌱"
+```
+
+**⭐ If this was useful, a star helps a lot.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:203a43,50:0f2027,100:0d1117&height=120&section=footer" width="100%"/>
+
+</div>
