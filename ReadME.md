@@ -82,9 +82,9 @@ Cybersecurity-Learning-Journey/
 
 | # | Task | Focus | Status |
 |:---:|---|---|:---:|
-| 01 | [Threat Intelligence Report](./task1) | Cyber Threat Research | 🟢 `DONE` |
-| 02 | [Cybersecurity Lab Setup](./task2) | Environment Build | 🟢 `DONE` |
-| 03 | [Vulnerability Assessment](./task3) | OWASP Juice Shop | 🟢 `DONE` |
+| 01 | [Threat Intelligence Report](./task1) | Cyber Threat Research | `DONE` |
+| 02 | [Cybersecurity Lab Setup](./task2) | Environment Build | `DONE` |
+| 03 | [Vulnerability Assessment](./task3) | OWASP Juice Shop | `DONE` |
 
 </div>
 
@@ -169,15 +169,15 @@ Recon → Port Scan (Nmap) → Web Scan (Nikto) → Dir Enum (Dirsearch) → Ris
 **Findings**
 
 | Finding | Severity |
-|---|:---:|
-| Open Port 3000 | 🟡 Medium |
-| Missing Content Security Policy | 🟡 Medium |
-| Missing HSTS Header | 🟡 Medium |
-| Missing Referrer Policy | 🟢 Low |
-| Missing Permissions Policy | 🟢 Low |
-| robots.txt Accessible | 🟢 Low |
-| API Documentation Exposed | 🟡 Medium |
-| Swagger Interface Accessible | 🟡 Medium |
+|---|---|
+| Open Port 3000 | Medium |
+| Missing Content Security Policy | Medium |
+| Missing HSTS Header | Medium |
+| Missing Referrer Policy | Low |
+| Missing Permissions Policy | Low |
+| robots.txt Accessible | Low |
+| API Documentation Exposed | Medium |
+| Swagger Interface Accessible | Medium |
 
 **Deliverables**
 - Full Vulnerability Assessment Report (Word format, with appendices)
