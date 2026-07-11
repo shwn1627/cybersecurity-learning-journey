@@ -58,14 +58,14 @@ Each project here is built to reflect real-world security workflows: reconnaissa
 ```text
 Cybersecurity-Learning-Journey/
 │
-├── Task-1-Threat-Intelligence-Report/
+├── task1/
 │   └── Cybersecurity_Threat_Report_Task1_Shawn_Rodrigues.pdf
 │
-├── Task-2-Cybersecurity-Lab-Setup/
+├── task2/
 │   ├── Full_LAB_Build_Report_Shawn_Rodrigues_Task2.pdf
 │   └── Evidence/
 │
-├── Task-3-Vulnerability-Assessment/
+├── task3/
 │   ├── README.md
 │   ├── commands-used.txt
 │   ├── findings-summary.md
@@ -89,9 +89,9 @@ Cybersecurity-Learning-Journey/
 
 | # | Task | Focus | Status |
 |---|---|---|---|
-| 1 | [Threat Intelligence Report](./Task-1-Threat-Intelligence-Report) | Cyber Threat Research | ✅ Done |
-| 2 | [Cybersecurity Lab Setup](./Task-2-Cybersecurity-Lab-Setup) | Environment Build | ✅ Done |
-| 3 | [Vulnerability Assessment](./Task-3-Vulnerability-Assessment) | OWASP Juice Shop | ✅ Done |
+| 1 | [Threat Intelligence Report](./task1) | Cyber Threat Research | ✅ Done |
+| 2 | [Cybersecurity Lab Setup](./task2) | Environment Build | ✅ Done |
+| 3 | [Vulnerability Assessment](./task3) | OWASP Juice Shop | ✅ Done |
 
 </div>
 
@@ -219,7 +219,7 @@ A black-box vulnerability assessment performed on OWASP Juice Shop, running insi
 
 All screenshots and evidence are available in the Task-3 `Evidence/` folder.
 
-👉 See the [Task-3 README](./Task-3-Vulnerability-Assessment/README.md) for full details.
+👉 See the [Task-3 README](./task3/README.md) for full details.
 
 </details>
 
